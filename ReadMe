@@ -1,0 +1,43 @@
+1 . Check user Git user name
+
+    $ git config --global user.name
+    MasterSecret
+2. Add local directory 
+    
+    $git init Aki
+    Initialized empty Git repository in /home/aki/Aki/.git/
+
+3.  cd Aki
+
+
+4. Set remote git repository
+
+    $git remote add origin https://github.com/MasterSecret/Aki.git
+    
+5. Sync remote repository with local new directory
+
+   $git pull origin master
+
+6. Add new file into local repository
+    
+    $ git add "7 Find Even & Odd numbers.ipynb"
+7. Commit changes
+   $ git commit
+
+8. Push new file into online Git repository
+
+   $ git push origin master
+ 
+
+        Username for 'https://github.com': MasterSecret
+        Password for 'https://MasterSecret@github.com': 
+        Counting objects: 3, done.
+        Delta compression using up to 4 threads.
+        Compressing objects: 100% (3/3), done.
+        Writing objects: 100% (3/3), 821 bytes | 0 bytes/s, done.
+        Total 3 (delta 1), reused 0 (delta 0)
+        remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+        To https://github.com/MasterSecret/Aki.git
+           384eb69..a8b19e7  master -> master
+        aki@aki-HP-Compaq-8200-Elite-MT-PC:~/Aki$ 
+
